@@ -1,0 +1,98 @@
+body p {
+font-family: 'Josefin Sans', sans-serif;
+}
+
+/********GRID DIMENSIONS**********/
+#header {
+    height: 800px;
+    background: url('../img/jess-watters-483666-unsplash1.jpg');
+    background-size: cover;
+}
+
+#portfolio {
+height: 1350px;
+}
+
+#about {
+height: 700px;
+}
+
+#contact {
+height: 500px;
+}
+
+#header .full-width {
+width: 1400px;
+}
+
+#portfolio .full-width {
+width: 1400px;
+}
+
+#portfolio .half-width {
+width: 700px;
+}
+
+#about .full-width {
+width: 1400px;
+}
+
+#about .half-width {
+width: 700px;
+}
+
+#contact .full-width {
+width: 1400px;
+}
+
+#contact .third-width {
+width: 466.5px;
+}
+
+#contact .third-width-third {
+width: 155.5px;
+}
+
+/********HEADER SECTION**********/
+
+#header h1 {
+font-family: 'Cardo', serif;
+font-size: 60pt;
+font-weight: 700px;
+color: #bdbf09;
+padding-top: 100px;
+padding-left: 300px;
+}
+
+#header h2 {
+font-family: 'Cardo', serif;
+font-size: 36pt;
+color: #095156;
+padding-top: 10px;
+padding-left: 315px;
+}
+
+/********PORTFOLIO SECTION**********/
+
+.portfolio-image {
+    border: 1px solid #b7b7b7;
+}
+
+.portfolio-text h3 {
+	font-size: 36px;
+	font-weight: 700px;
+	color: #095156;
+	padding-top: 50px;
+	padding-right: 650px;
+}
+
+.portfolio-text h4 p {
+	font-size: 24px;
+	padding-right: 25px;
+}
+
+
+}
+
+
+
