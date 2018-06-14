@@ -1,4 +1,6 @@
-body p {
+/********BASE STYLES**********/
+
+body  {
 font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -10,7 +12,7 @@ font-family: 'Josefin Sans', sans-serif;
 }
 
 #portfolio {
-height: 1350px;
+height: 1600x;
 }
 
 #about {
@@ -23,10 +25,13 @@ height: 500px;
 
 #header .full-width {
 width: 1400px;
+margin: 0 auto;
 }
 
 #portfolio .full-width {
 width: 1400px;
+padding: 80px 0;
+margin: 0 auto;
 }
 
 #portfolio .half-width {
@@ -35,6 +40,7 @@ width: 700px;
 
 #about .full-width {
 width: 1400px;
+margin: 0 auto;
 }
 
 #about .half-width {
@@ -43,17 +49,26 @@ width: 700px;
 
 #contact .full-width {
 width: 1400px;
+margin: 0 auto;
 }
 
 #contact .third-width {
 width: 466.5px;
+float: left;
 }
 
 #contact .third-width-third {
 width: 155.5px;
+float: left;
 }
 
 /********HEADER SECTION**********/
+
+#header {
+    height: 800px;
+    background: url('../img/jess-watters-483666-unsplash1.jpg');
+    background-size: cover;
+}
 
 #header h1 {
 font-family: 'Cardo', serif;
@@ -74,25 +89,62 @@ padding-left: 315px;
 
 /********PORTFOLIO SECTION**********/
 
+#portfolio {
+height: 1600x;
+}
+
+#portfolio h3 {
+	font-family: 'Cardo', serif;
+	font-size: 36px;
+	color: #095156;
+	padding-top: 30px;
+	padding-left: 600px;
+	padding-bottom: 125px;
+}
+
+#portfolio h4  {
+	font-family: 'Cardo', serif;
+	font-size: 24px;
+	color: #095156;
+	padding-left: 115px	
+}
+
+#portfolio p {
+	font-size: 24px;
+}
+
 .portfolio-image {
     border: 1px solid #b7b7b7;
+    float: left;
 }
 
-.portfolio-text h3 {
+/********ABOUT SECTION**********/
+
+#about {
+	background-color: #087e8b;
+}
+#about h3 {
+	font-family: 'Cardo', serif;
 	font-size: 36px;
-	font-weight: 700px;
-	color: #095156;
-	padding-top: 50px;
-	padding-right: 650px;
+	color: #ffffff;
+	padding-top: 70px;
+	padding-left: 600px;
+	padding-bottom: 50px;
 }
-
-.portfolio-text h4 p {
+#about h4 {
+	font-family: 'Cardo', serif;
 	font-size: 24px;
-	padding-right: 25px;
+}
+#about p {
+	font-size: 24px;
 }
 
-
+.self-image {
+	border: 1px solid #b7b7b7;
+    float: left;
 }
 
-
+.about-text {
+	float: left;
+}
 
