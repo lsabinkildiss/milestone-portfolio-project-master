@@ -1,0 +1,124 @@
+/********BASE STYLES**********/
+
+body  {
+font-family: 'Josefin Sans', sans-serif;
+}
+
+/********SECTION HEIGHTS**********/
+#header {
+    height: 800px;
+    background: url('../img/jess-watters-483666-unsplash1.jpg');
+    background-size: cover;
+}
+
+#portfolio {
+height: 1800px;
+}
+
+#about {
+height: 700px;
+}
+
+#contact {
+height: 500px;
+}
+
+/*********WIDTHS*******************/
+.full-width {
+width: 1400px;
+margin: 0 auto;
+}
+
+#portfolio .half-width {
+width: 700px;
+float: left;
+}
+
+#about .half-width {
+	width: 700px;
+	float: left;
+}
+#contact .third-width {
+width: 466.5px;
+float: left;
+}
+
+#contact .third-width-third {
+width: 155.5px;
+float: left;
+}
+
+/********HEADER SECTION**********/
+
+
+#header h1 {
+font-family: 'Cardo', serif;
+font-size: 60pt;
+font-weight: 700px;
+color: #bdbf09;
+padding-top: 100px;
+padding-left: 300px;
+}
+
+#header h2 {
+font-family: 'Cardo', serif;
+font-size: 36pt;
+color: #095156;
+padding-top: 10px;
+padding-left: 315px;
+}
+
+/********PORTFOLIO SECTION**********/
+
+
+
+#portfolio h3 {
+	font-family: 'Cardo', serif;
+	font-size: 36px;
+	color: #095156;
+	padding-top: 30px;
+	padding-left: 600px;
+	padding-bottom: 125px;
+}
+
+#portfolio h4  {
+	font-family: 'Cardo', serif;
+	font-size: 24px;
+	color: #095156;
+	}
+
+#portfolio p {
+	font-size: 24px;
+	line-height: 36px;
+	margin-bottom: 45px;
+}
+
+.portfolio-image {
+    border: 1px solid #b7b7b7;
+ }
+
+
+/********ABOUT SECTION**********/
+
+#about {
+	background-color: #087e8b;
+}
+#about h3 {
+	font-family: 'Cardo', serif;
+	font-size: 36px;
+	color: #ffffff;
+	padding-top: 70px;
+	padding-left: 600px;
+	padding-bottom: 50px;
+}
+#about h4 {
+	font-family: 'Cardo', serif;
+	font-size: 24px;
+}
+#about p {
+	font-size: 24px;
+}
+
+
+
+
